@@ -1,0 +1,10 @@
+{
+  "name": "su-dang-goc-on-tap",
+  "version": "1.0.0",
+  "private": true,
+  "description": "793 câu hỏi Lịch sử Đảng — thẻ ghi nhớ và trắc nghiệm",
+  "scripts": {
+    "test": "node --test tests/core.test.cjs",
+    "start": "python -m http.server 4190 --bind 127.0.0.1"
+  }
+}
